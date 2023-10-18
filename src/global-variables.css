@@ -1,0 +1,124 @@
+@font-face {
+ font-family: "Montserrat";
+ src: local("Montserrat"),
+  url("./font/Montserrat/Montserrat-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+ font-family: "Montserrat";
+ src: local("Montserrat"),
+  url("./font/Montserrat/Montserrat-SemiBold.otf") format("opentype");
+  font-weight: 600;
+}
+
+@font-face {
+ font-family: "Montserrat";
+ src: local("Montserrat"),
+  url("./font/Montserrat/Montserrat-Bold.otf") format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+ font-family: "Poppins";
+ src: local("Poppins"),
+  url("./font/Poppins/Poppins-Light.otf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+ font-family: "Poppins";
+ src: local("Poppins"),
+  url("./font/Poppins/Poppins-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+ font-family: "Poppins";
+ src: local("Poppins"),
+  url("./font/Poppins/Poppins-SemiBold.otf") format("opentype");
+  font-weight: 600;
+}
+
+@font-face {
+ font-family: "Poppins";
+ src: local("Poppins"),
+  url("./font/Poppins/Poppins-Bold.otf") format("opentype");
+  font-weight: bold;
+}
+
+:root {
+	/*==========Global Fonts==========*/
+	/*  Note: Available Font Weights(300, 400, 600, Bold )	*/
+	--primary-font: 'Montserrat';
+	--secondary-font: 'Montserrat';
+	--text: 'Poppins';
+	--accent-font: 'Montserrat'; /* Font Buttons */
+
+	/* Just incase you want to forcely change the font style */
+	--montserrat: 'Montserrat';
+	--poppins: 'Poppins';
+
+	/*	Font Sizes */
+	--h1-fsize: 50px;
+	--h2-fsize: 40px;
+	--h3-fsize: 32px;
+	--text-fsize: 16px;
+
+	/*	Font Mobile Sizes */
+	--mobile-h1-fsize: 42px;
+	--mobile-h2-fsize: 32px;
+	--mobile-h3-fsize: 24px;
+
+
+	/*==========Color Brandings==========*/
+
+	/* Common Colors */
+	--white: #FFFFFF;
+	--dirty-white: #F8F9FA;
+	--alt-white: #F2F2F2;
+	--black: #000000;
+	--alt-black: #111111;
+
+	--text-color: #474747;
+
+	/* GCOACH - Our Brand */
+	--gcoach-primary-color: #2B6777;
+	--gcoach-secondary-color: #C8D8E4;
+	--gcoach-accent-color: #52AB98;
+
+	/* CCS Department */
+	--ccs-primary-color: #FF8A00;
+	--ccs-secondary-color: #FFE971;
+	--ccs-accent-color: #FF8A00;
+
+	/* CEAS Department */
+	--ceas-primary-color: #0511F8;
+	--ceas-secondary-color: #FFE971;
+	--ceas-accent-color: #0511F8;
+
+	/* CHTM Department */
+	--chtm-primary-color: #FF0080;
+	--chtm-secondary-color: #F8D50E;
+	--chtm-accent-color: #FF0080;
+
+	/* CBA Department */
+	--cba-primary-color: #FFFB01;
+	--cba-secondary-color: #FDC929;
+	--cba-accent-color: #FFFB01;
+
+	/* CAHS Department */
+	--cahs-primary-color: #FD0002;
+	--cahs-secondary-color: #FFE971;
+	--cahs-accent-color: #FD0002;
+
+
+	/*==========Width Sizing==========*/
+	--width: min(100% - 100px, 1440px);
+	--mobile-width: min(100% - 40px, 1440px);
+
+
+	/*==========Padding Container Sizing==========*/
+	--hero-padding: 100px 10px;
+	--cont-padding: 75px 10px;
+}

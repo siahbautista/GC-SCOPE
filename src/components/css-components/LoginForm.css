@@ -1,0 +1,105 @@
+.login_container {
+    padding: 0 50px;
+}
+
+.login_form_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_form_container img {
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+.login_form_container h1 {
+    font-family: var(--montserrat);
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 2rem;
+}
+
+#username {
+    margin-bottom: 1rem;
+}
+
+#password {
+    margin-bottom: 1rem;
+}
+
+.form_input {
+    width: 450px;
+    padding: 15px 30px;
+    border: 0.5px solid #D4D4D4;
+    border-radius: 100px;
+    background-color: var(--white);
+}
+
+input::placeholder {
+    color: #A4A4A4;
+    font-size: 18px;
+}
+
+.form_input_fpassword {
+    text-align: -webkit-right;
+    padding-right: 20px;
+    font-family: var(--poppins);
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+.form_input_fpassword a {
+    text-decoration: none;
+    color: var(--gcoach-primary-color);
+}
+
+.form_input_fpassword a:hover {
+    color: #245664;
+}
+
+.form_input_register {
+    color: #6c6c6c;
+}
+
+.hr_line {
+	height: 1px;
+	background-color: #474747;
+    margin: 2rem 0 !important;
+}
+
+.login_btn {
+    background-color: var(--gcoach-accent-color);
+    border-radius: 100px;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400 !important;
+    color: var(--white)!important;
+    border: none;
+    width: 450px;
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+.login_btn:hover {
+    background-color: #438879;
+}
+
+.register_btn {
+    border-radius: 100px;
+    font-family: var(--poppins);
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: var(--alt-black)!important;
+    border: 1px solid var(--black);
+    width: 450px;
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+.register_btn:hover {
+    border-color: var(--gcoach-accent-color) !important;
+    color: var(--gcoach-accent-color) !important;
+}

@@ -1,0 +1,28 @@
+.login_row {
+    background-color: var(--gcoach-secondary-color);
+}
+
+.form_container {
+    display: flex;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.form_content_left, .form_content_right {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.form_content_left {
+    background-color: var(--gcoach-secondary-color);
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_content_right {
+    width: 55%;
+    background-color: var(--alt-white);
+    clip-path: polygon(5% 0%,100% 0%,100% 100%,0% 100%);
+}
