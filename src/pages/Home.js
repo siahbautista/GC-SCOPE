@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from '../components/Header.js';
 import HeroImage from '../assets/hero_image.png';
-import './Pages.css'
+import './css_pages/Pages.css';
+
 function Home() {
 	return (
     	<div>

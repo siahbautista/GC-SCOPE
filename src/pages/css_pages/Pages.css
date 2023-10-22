@@ -1,0 +1,32 @@
+.hero_content h1.hero_title {
+	font-family: var(--primary-font);
+	font-weight: 600;
+	font-size: var(--h1-fsize);
+}
+
+.hero_content h1.hero_title span {
+	color: var(--gcoach-primary-color);
+}
+
+.hero_content p.hero_description {
+	font-family: var(--text);
+	font-weight: 400;
+	color: var(--text-color);
+	margin: 10px 0 30px;
+}
+
+.hero_container {
+	width: var(--width);
+	margin-inline: auto;
+	display: flex;
+	align-items: center;
+}
+
+.hero_content,
+.hero_image {
+	width: 50%;
+}
+
+.hero_image img {
+	width: 100%;
+}

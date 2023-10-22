@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './Login.css';
+import './css_pages/Login.css';
 import logo from "../assets/logos/gc-logo.png";
 import LoginForm from '../components/LoginForm';
 
