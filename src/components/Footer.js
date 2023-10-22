@@ -217,7 +217,7 @@ function Footer() {
             <div className="footer_bottom">
                 <div className="footer_bottom_container">
                     <div className="legal">
-                        <span>© 2020 GC Scope. All rights reserved.</span>
+                        <span>© 2023 GC Scope. All rights reserved.</span>
                     </div>
                     <div className="footer_logo">
                         <img src={logo} alt="GC Logo"/>
