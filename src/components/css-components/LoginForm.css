@@ -10,15 +10,19 @@
 }
 
 .login_form_container img {
-    width: 100px;
-    margin-bottom: 1rem;
+    width: 150px;
+    margin-bottom: 3rem;
 }
 
 .login_form_container h1 {
     font-family: var(--montserrat);
     font-weight: bold;
-    font-size: 28px;
+    font-size: 32px;
     margin-bottom: 2rem;
+}
+
+.login_form {
+    text-align: center;
 }
 
 #username {
@@ -48,7 +52,6 @@ input::placeholder {
     font-family: var(--poppins);
     font-size: 14px;
     font-weight: 300;
-    margin-bottom: 1.5rem;
 }
 
 .form_input_fpassword a {
@@ -67,7 +70,7 @@ input::placeholder {
 .hr_line {
 	height: 1px;
 	background-color: #474747;
-    margin: 2rem 0 !important;
+    margin: 3rem 0 !important;
 }
 
 .login_btn {
@@ -81,6 +84,7 @@ input::placeholder {
     width: 450px;
     padding: 15px 30px;
     font-size: 18px;
+    margin-top: 2rem;
 }
 
 .login_btn:hover {
@@ -97,6 +101,7 @@ input::placeholder {
     width: 450px;
     padding: 15px 30px;
     font-size: 18px;
+    margin-top: 1.1rem;
 }
 
 .register_btn:hover {
