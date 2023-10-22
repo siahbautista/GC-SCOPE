@@ -9,7 +9,6 @@ export class Portal extends Component {
             <div className="login_page_container">
                 <div class="left_section"></div>
                 <div class="right_section">
-                    {/* pakyu */}
                     <LoginForm/>
                 </div>
             </div>
