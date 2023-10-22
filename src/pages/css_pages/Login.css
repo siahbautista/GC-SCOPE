@@ -6,13 +6,15 @@
 .left_section {
     height: 100vh;
     background-size: cover;
-    background-image: url(/src/assets/gc_building.jpg);
-    width: 55%;
+    background-image: url(/src/assets/gc_school.JPG);
+}
+
+.left_section, 
+.right_section {
+    width: 50%;
 }
 
 .right_section {
     display: flex;
     justify-content: center;
-    width: 45%;
-    background: var(--alt-white);
 }
