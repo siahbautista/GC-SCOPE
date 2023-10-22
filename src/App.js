@@ -6,7 +6,7 @@ import Events from './pages/Events';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Error from './pages/Error';
-import Portal from './pages/Portal';
+import Login from './pages/Login';
 import Signup from './pages/Signup';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/portal" element={<Portal />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="*" element={<Error />} />
       </Routes>

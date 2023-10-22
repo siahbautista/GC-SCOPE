@@ -18,7 +18,8 @@ function Header() {
 			        </nav>
 				</div>
 				<div className="button_wrapper">
-					<a href="/portal" className="button_gcscope">Login</a>
+					<a href="/login" className="login">Login</a>
+					<a href="#" className="button_gcscope register">Register</a>
 				</div>
 			</div>
 		</header>

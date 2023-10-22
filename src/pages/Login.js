@@ -1,8 +1,9 @@
+
 import React, { Component } from "react";
-import './css_pages/Login.css';
+import './Login.css';
 import LoginForm from '../components/LoginForm';
 
-export class Portal extends Component {
+export class Login extends Component {
     render() {
         return (
             <div className="login_page_container">
@@ -16,4 +17,4 @@ export class Portal extends Component {
     }
 }
 
-export default Portal;
+export default Login;
