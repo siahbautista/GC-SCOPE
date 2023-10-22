@@ -26,10 +26,45 @@ code {
   border-radius: 100px;
 }
 
+
+
 a.button_gcscope {
   text-decoration: none;
   font-family: var(--poppins);
   font-size: 16px !important;
   font-weight: 400 !important;
   color: var(--white)!important;
+}
+
+/* ========== PAGE HEADINGS ========== */
+.pages_hero_heading_container {
+  width: var(--width);
+  margin-inline: auto;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.pages_hero_heading_container .pages_hero_heading h1 ,
+.silhoutte_heading {
+  font-family: var(--montserrat);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.silhoutte_heading {
+  color: transparent;
+  -webkit-text-stroke: 1px #e4e4e4;
+  font-size: 90px;
+  margin-bottom: 20px;
+}
+
+.pages_hero_heading_container .pages_hero_heading h1 {
+  margin-top: -96px;
+  color: var(--black);
+  margin-bottom: 65px;
+  font-size: var(--h1-fsize);
 }
