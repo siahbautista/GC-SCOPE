@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header.js';
+import Footer from '../components/Footer.js';
 import HeroImage from '../assets/hero_image.png';
 import './css_pages/Pages.css';
 
@@ -19,6 +20,7 @@ function Home() {
 	    			</div>
 	    		</div>
     		</div>
+    		<Footer />
     	</div>
     );
 }

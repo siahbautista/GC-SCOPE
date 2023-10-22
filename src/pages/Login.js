@@ -10,7 +10,7 @@ export class Login extends Component {
                 <div className="form_container">
                     <div className="form_content_left"><img src={logo} alt="GC Logo" /></div>
                     <div className="form_content_right">
-                    <LoginForm/>
+                        <LoginForm/>
                     </div>
                 </div>
             </div>
