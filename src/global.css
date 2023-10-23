@@ -27,7 +27,7 @@ code {
 
 .button_gcscope {
 	padding: 13px 30px !important;
-  background-color: var(--gcoach-accent-color);
+  background-color: var(--gcscope-accent-color);
   border-radius: 100px;
 }
 
@@ -37,6 +37,30 @@ a.button_gcscope {
   font-size: 16px !important;
   font-weight: 400 !important;
   color: var(--white)!important;
+}
+
+.button_gcscope.css {
+  background-color: var(--ccs-accent-color);
+}
+
+.button_gcscope.ceas {
+  background-color: var(--ceas-accent-color);
+}
+
+.button_gcscope.cahs {
+  background-color: var(--cahs-accent-color);
+}
+
+.button_gcscope.chtm {
+  background-color: var(--chtm-accent-color);
+}
+
+.button_gcscope.cba {
+  background-color: var(--cba-accent-color);
+}
+
+a.button_gcscope.cba {
+  color: var(--black) !important;
 }
 
 /* ========== PAGE HEADINGS ========== */

@@ -1,5 +1,7 @@
 import Footer from '../components/Footer.js';
 import Header from '../components/Header.js';
+import './css_pages/Pages.css';
+import DepartmentsTabination from '../components/DepartementsTabination.js';
 
 function Departments() {
 	return (
@@ -14,7 +16,12 @@ function Departments() {
 					</div>
 				</div>
 			</div>
-			{/* Page Hero Heading End */}
+			{/* Departments Tabination */}
+			<div className="center_style_row">	
+				<div className="center_style_container">	
+					<DepartmentsTabination />	
+				</div>
+			</div>
 			<Footer />
     	</div>
     );

@@ -77,15 +77,16 @@
 	--white: #FFFFFF;
 	--dirty-white: #F8F9FA;
 	--alt-white: #F2F2F2;
+	--light-gray: #fdfdfd;
 	--black: #000000;
 	--alt-black: #111111;
 
 	--text-color: #474747;
 
-	/* GCOACH - Our Brand */
-	--gcoach-primary-color: #2B6777;
-	--gcoach-secondary-color: #C8D8E4;
-	--gcoach-accent-color: #52AB98;
+	/* GCSCOPE - Our Brand */
+	--gcscope-primary-color: #2B6777;
+	--gcscope-secondary-color: #C8D8E4;
+	--gcscope-accent-color: #52AB98;
 
 	/* CCS Department */
 	--ccs-primary-color: #FF8A00;

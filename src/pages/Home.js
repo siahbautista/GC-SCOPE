@@ -2,7 +2,11 @@ import React from 'react';
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 import HeroImage from '../assets/hero_image.png';
-import CHTM from '../assets/logos/departments/CHTM_Logo.png';
+import CHTM from '../assets/logos/departments/chtm_logo.png';
+import CSS from '../assets/logos/departments/css_logo.png';
+import CEAS from '../assets/logos/departments/ceas_logo.png';
+import CAHS from '../assets/logos/departments/cahs_logo.png';
+import CBA from '../assets/logos/departments/cba_logo.png';
 import './css_pages/Pages.css';
 
 function Home() {
@@ -44,7 +48,7 @@ function Home() {
 							<div className="per_department">
 								<div className="department_column">
 									<div className="department_image">
-										<img src={CHTM} alt="GC-SCOPE Hero Image" />
+										<img src={CAHS} alt="GC-SCOPE Hero Image" />
 									</div>
 									<div className="department_infos">
 										<div className="department_name">
@@ -57,7 +61,7 @@ function Home() {
 								</div>
 								<div className="department_column">
 									<div className="department_image">
-										<img src={CHTM} alt="GC-SCOPE Hero Image" />
+										<img src={CSS} alt="GC-SCOPE Hero Image" />
 									</div>
 									<div className="department_infos">
 										<div className="department_name">
@@ -72,7 +76,7 @@ function Home() {
 							<div className="per_department">
 								<div className="department_column">
 									<div className="department_image">
-										<img src={CHTM} alt="GC-SCOPE Hero Image" />
+										<img src={CBA} alt="GC-SCOPE Hero Image" />
 									</div>
 									<div className="department_infos">
 										<div className="department_name">
@@ -85,7 +89,7 @@ function Home() {
 								</div>
 								<div className="department_column">
 									<div className="department_image">
-										<img src={CHTM} alt="GC-SCOPE Hero Image" />
+										<img src={CEAS} alt="GC-SCOPE Hero Image" />
 									</div>
 									<div className="department_infos">
 										<div className="department_name">

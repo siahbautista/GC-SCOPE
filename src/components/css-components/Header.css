@@ -25,7 +25,7 @@
 
 .nav_item:hover,
 .login:hover {
-	color: var(--gcoach-accent-color);
+	color: var(--gcscope-accent-color);
 }
 
 .nav_items img {

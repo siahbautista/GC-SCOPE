@@ -1,3 +1,13 @@
+ /* 
+ For Quick Navigate the code for pages, You can search it by use the following terms:
+ 1. Homepage
+ 	- Gordon College Department 
+ 2. Departments Page
+ 	- Tabination
+ */
+
+ 
+ /* ========== Homepage ========== */
 .hero_container {
 	width: var(--width);
 	margin-inline: auto;
@@ -128,3 +138,4 @@
 	font-size: 16px;
 	color: var(--text-color);
 }
+/* ========== Departments Page ========== */
