@@ -77,9 +77,12 @@ button#departments_tabination-tab-cahs.active:before {
 button#departments_tabination-tab-cba.active:before {
     border-bottom: 3px solid  var(--cba-primary-color);
 }
+
 /* Tabination Tab End */
 
+
 /* Tabination Contents */
+
 .department_tab_content_row {
     display: flex;
     justify-content: center;
@@ -199,4 +202,5 @@ button#departments_tabination-tab-cba.active:before {
 .department_button {
     margin: 10px 0 20px 0;
 }
+
 /* Tabination Contents End */

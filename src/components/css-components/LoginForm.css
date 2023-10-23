@@ -56,7 +56,7 @@ input::placeholder {
 
 .form_input_fpassword a {
     text-decoration: none;
-    color: var(--gcoach-primary-color);
+    color: var(--gcscope-primary-color);
 }
 
 .form_input_fpassword a:hover {
@@ -74,7 +74,7 @@ input::placeholder {
 }
 
 .login_btn {
-    background-color: var(--gcoach-accent-color);
+    background-color: var(--gcscope-accent-color);
     border-radius: 100px;
     font-family: var(--poppins);
     font-size: 16px;
@@ -105,6 +105,6 @@ input::placeholder {
 }
 
 .register_btn:hover {
-    border-color: var(--gcoach-accent-color) !important;
-    color: var(--gcoach-accent-color) !important;
+    border-color: var(--gcscope-accent-color) !important;
+    color: var(--gcscope-accent-color) !important;
 }
