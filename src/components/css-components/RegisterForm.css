@@ -1,0 +1,75 @@
+.register_container {
+    padding: 0 50px;
+}
+
+.register_form_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register_form_container img {
+    width: 150px;
+    margin-bottom: 3rem;
+}
+
+.register_form_container h1 {
+    font-family: var(--montserrat);
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 2rem;
+}
+
+.register_form {
+    text-align: center;
+}
+
+.form2_input {
+    width: 450px;
+    padding: 10px 30px;
+    border: 0.5px solid #D4D4D4;
+    border-radius: 100px;
+    background-color: var(--white);
+    margin-bottom: 0.5rem;
+}
+
+.form2_input2 input::placeholder {
+    color: #A4A4A4;
+    font-size: 14px;
+}
+
+.form2_input_login {
+    color: #6c6c6c;
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+.register2_btn {
+    background-color: var(--gcoach-accent-color);
+    border-radius: 100px;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400 !important;
+    color: var(--white)!important;
+    border: none;
+    width: 450px;
+    padding: 10px 30px;
+    font-size: 14px;
+    margin-top: 2rem;
+}
+
+.register2_btn:hover {
+    background-color: #438879;
+}
+
+.login_link {
+    font-weight: bold;
+    color: var(--gcoach-primary-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.login_link:hover {
+    color: var(--gcoach-accent-color);
+}
