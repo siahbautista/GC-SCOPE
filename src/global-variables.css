@@ -62,7 +62,7 @@
 	/*	Font Sizes */
 	--h1-fsize: 50px;
 	--h2-fsize: 40px;
-	--h3-fsize: 32px;
+	--h3-fsize: 28px;
 	--text-fsize: 16px;
 
 	/*	Font Mobile Sizes */
@@ -120,5 +120,5 @@
 
 	/*==========Padding Container Sizing==========*/
 	--hero-padding: 100px 10px;
-	--cont-padding: 75px 10px;
+	--cont-padding: 100px 10px;
 }

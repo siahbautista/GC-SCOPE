@@ -1,25 +1,9 @@
-.hero_content h1.hero_title {
-	font-family: var(--primary-font);
-	font-weight: 600;
-	font-size: var(--h1-fsize);
-}
-
-.hero_content h1.hero_title span {
-	color: var(--gcoach-primary-color);
-}
-
-.hero_content p.hero_description {
-	font-family: var(--text);
-	font-weight: 400;
-	color: var(--text-color);
-	margin: 10px 0 30px;
-}
-
 .hero_container {
 	width: var(--width);
 	margin-inline: auto;
 	display: flex;
 	align-items: center;
+	padding: 20px 0 100px 0;
 }
 
 .hero_content,
@@ -27,6 +11,120 @@
 	width: 50%;
 }
 
+.hero_content h1 {
+	font-family: var(--primary-font);
+	font-weight: bold;
+	font-size: var(--h1-fsize);
+}
+
+.hero_content h1 span {
+	color: var(--gcoach-primary-color);
+}
+
+.hero_content .hero_description {
+	margin-top: 15px;
+}
+
+.hero_content .hero_description p {
+	font-family: var(--text);
+	font-weight: 300;
+	font-size: 18px;
+	color: var(--text-color);
+}
+
+.hero_buttons {
+	margin-top: 30px;
+}
+
 .hero_image img {
+	width: 90%;
+	float: right;
+}
+
+
+/* Gordon College Department */
+
+.center_style_row {
+	background-color: var(--dirty-white);
+}
+
+.center_style_container .content_title h2 {
+	font-family: var(--primary-font);
+	font-weight: bold;
+	text-align: center;
+	font-size: var(--h2-fsize);
+}
+
+.center_style_container .horizontal_line hr {
+	width: 200px;
+	height: 1px;
+	margin: 20px 0;
+	opacity: 1;
+	background-color: var(--gcoach-primary-color);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center_style_container .content_subtitle p {
+	font-family: var(--text);
+	font-weight: 300;
+	text-align: center;
+	font-size: 16px;
+	color: var(--text-color);
+}
+
+.departments_row {
+	display: flex;
+	justify-content: center;
+	max-width: 1440px;
+	margin-top: 50px;
+}
+
+.departments_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+}
+
+.per_department {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 40px;
 	width: 100%;
+}
+
+.departments_container .per_department:nth-child(3) {
+	justify-content: center;
+}
+
+.per_department .department_column {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
+	padding: 20px 30px;
+	background-color: var(--white);
+	border-radius: 20px;
+	width: 50%;
+    box-shadow: 0px 10px 40px -10px rgb(84 84 84 / 5%);
+}
+
+.department_image img {
+	width: 120px;
+	height: auto;
+}
+
+.department_infos .department_name h3 {
+	font-family: var(--primary-font);
+	font-weight: bold;
+	font-size: var(--h3-fsize);
+}
+
+.department_infos .department_description p {
+	font-family: var(--text);
+	font-weight: 300;
+	font-size: 16px;
+	color: var(--text-color);
 }
