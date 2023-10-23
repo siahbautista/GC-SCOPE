@@ -1,7 +1,7 @@
-import Footer from '../components/Footer.js';
-import Header from '../components/Header.js';
+import Footer from '../../components/Footer.js';
+import Header from '../../components/Header.js';
 
-function About() {
+function Contact() {
 	return (
     	<div>
     		<Header />
@@ -9,8 +9,8 @@ function About() {
 			<div className="pages_hero_heading_row">
 				<div className="pages_hero_heading_container">
 					<div className="pages_hero_heading">
-						<span className="silhoutte_heading">About</span>
-						<h1>About</h1>
+						<span className="silhoutte_heading">Contact</span>
+						<h1>Contact</h1>
 					</div>
 				</div>
 			</div>
@@ -20,4 +20,4 @@ function About() {
     );
 }
 
-export default About;
+export default Contact;

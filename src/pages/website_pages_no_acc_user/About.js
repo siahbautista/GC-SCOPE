@@ -1,7 +1,7 @@
-import Header from '../components/Header.js';
-import Footer from '../components/Footer.js';
+import Footer from '../../components/Footer.js';
+import Header from '../../components/Header.js';
 
-function Events() {
+function About() {
 	return (
     	<div>
     		<Header />
@@ -9,15 +9,15 @@ function Events() {
 			<div className="pages_hero_heading_row">
 				<div className="pages_hero_heading_container">
 					<div className="pages_hero_heading">
-						<span className="silhoutte_heading">Events</span>
-						<h1>Events</h1>
+						<span className="silhoutte_heading">About</span>
+						<h1>About</h1>
 					</div>
 				</div>
 			</div>
 			{/* Page Hero Heading End */}
-    		<Footer />
+			<Footer />
     	</div>
     );
 }
 
-export default Events;
+export default About;

@@ -28,7 +28,7 @@
 }
 
 .hero_content h1 span {
-	color: var(--gcoach-primary-color);
+	color: var(--gcscope-primary-color);
 }
 
 .hero_content .hero_description {
@@ -70,7 +70,7 @@
 	height: 1px;
 	margin: 20px 0;
 	opacity: 1;
-	background-color: var(--gcoach-primary-color);
+	background-color: var(--gcscope-primary-color);
 	margin-left: auto;
 	margin-right: auto;
 }

@@ -1,7 +1,7 @@
-import Footer from '../components/Footer.js';
-import Header from '../components/Header.js';
+import Footer from '../../components/Footer.js';
+import Header from '../../components/Header.js';
 import './css_pages/Pages.css';
-import DepartmentsTabination from '../components/DepartmentsTabination.js';
+import DepartmentsTabination from '../../components/DepartmentsTabination.js';
 
 function Departments() {
 	return (

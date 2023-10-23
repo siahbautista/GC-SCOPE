@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Departments from './pages/Departments';
-import Events from './pages/Events';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Error from './pages/Error';
-import Portal from './pages/Portal';
+import Home from './pages/website_pages_no_acc_user/Home';
+import Departments from './pages/website_pages_no_acc_user/Departments';
+import Events from './pages/website_pages_no_acc_user/Events';
+import About from './pages/website_pages_no_acc_user/About';
+import Contact from './pages/website_pages_no_acc_user/Contact';
+import Error from './pages/website_pages_no_acc_user/Error';
+import Portal from './pages/website_pages_no_acc_user/Portal';
 
 function App() {
   return (
