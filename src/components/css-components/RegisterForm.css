@@ -46,7 +46,11 @@
 }
 
 .register2_btn {
+<<<<<<< HEAD
     background-color: var(--gcscope-accent-color);
+=======
+    background-color: var(--gcoach-accent-color);
+>>>>>>> 78931cc4 (login and register page doneee)
     border-radius: 100px;
     font-family: var(--poppins);
     font-size: 16px;
@@ -65,11 +69,19 @@
 
 .login_link {
     font-weight: bold;
+<<<<<<< HEAD
     color: var(--gcscope-primary-color);
+=======
+    color: var(--gcoach-primary-color);
+>>>>>>> 78931cc4 (login and register page doneee)
     text-decoration: none;
     cursor: pointer;
 }
 
 .login_link:hover {
+<<<<<<< HEAD
     color: var(--gcscope-accent-color);
+=======
+    color: var(--gcoach-accent-color);
+>>>>>>> 78931cc4 (login and register page doneee)
 }
