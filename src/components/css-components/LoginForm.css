@@ -39,9 +39,10 @@
     border: 0.5px solid #D4D4D4;
     border-radius: 100px;
     background-color: var(--white);
+    margin-bottom: 1.5rem;
 }
 
-input::placeholder {
+.form_inputs input::placeholder {
     color: #A4A4A4;
     font-size: 18px;
 }
@@ -56,7 +57,7 @@ input::placeholder {
 
 .form_input_fpassword a {
     text-decoration: none;
-    color: var(--gcscope-primary-color);
+    color: var(--gcoach-primary-color);
 }
 
 .form_input_fpassword a:hover {
@@ -105,6 +106,6 @@ input::placeholder {
 }
 
 .register_btn:hover {
-    border-color: var(--gcscope-accent-color) !important;
-    color: var(--gcscope-accent-color) !important;
+    border-color: var(--gcsope-accent-color) !important;
+    color: var(--gcsope-accent-color) !important;
 }

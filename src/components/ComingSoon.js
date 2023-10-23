@@ -1,4 +1,5 @@
-import './css_components/ComingSoon.css';
+import React from 'react';
+import './css-components/ComingSoon.css';
 
 function ComingSoon () {
     return (

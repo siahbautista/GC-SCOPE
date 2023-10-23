@@ -1,0 +1,20 @@
+.login_page_container {
+    width: 100%;
+    display: flex;
+}
+
+.left_section {
+    height: 100vh;
+    background-size: cover;
+    background-image: url(/src/assets/gc_building.jpg);
+}
+
+.left_section, 
+.right_section {
+    width: 50%;
+}
+
+.right_section {
+    display: flex;
+    justify-content: center;
+}
