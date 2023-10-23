@@ -12,21 +12,24 @@ code {
     monospace;
 }
 
-/*==========Containers==========*/
+/*========== Default Width Containers ==========*/
 
-.container {
+.center_style_container,
+.left_style_container,
+.right_style_container {
   width: var(--width);
   margin-inline: auto;
   padding: var(--cont-padding);
 }
 
+
+/*========== Defualt Button ==========*/
+
 .button_gcscope {
-  padding: 10px 30px !important;
+	padding: 13px 30px !important;
   background-color: var(--gcoach-accent-color);
   border-radius: 100px;
 }
-
-
 
 a.button_gcscope {
   text-decoration: none;
