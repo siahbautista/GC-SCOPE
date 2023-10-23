@@ -48,10 +48,10 @@ function Home() {
 									</div>
 									<div className="department_infos">
 										<div className="department_name">
-											<h3>GC - CHTM</h3>
+											<h3>GC - CAHS</h3>
 										</div>
 										<div className="department_description">
-											<p>College of Hospitality and Tourism Management</p>
+											<p>College of Allied Health Studies</p>
 										</div>
 									</div>
 								</div>
@@ -61,10 +61,10 @@ function Home() {
 									</div>
 									<div className="department_infos">
 										<div className="department_name">
-											<h3>GC - CHTM</h3>
+											<h3>GC - CCS</h3>
 										</div>
 										<div className="department_description">
-											<p>College of Hospitality and Tourism Management</p>
+											<p>College of Computer Studies</p>
 										</div>
 									</div>
 								</div>
@@ -76,10 +76,10 @@ function Home() {
 									</div>
 									<div className="department_infos">
 										<div className="department_name">
-											<h3>GC - CHTM</h3>
+											<h3>GC - CBA</h3>
 										</div>
 										<div className="department_description">
-											<p>College of Hospitality and Tourism Management</p>
+											<p>College of Business and Accountacy</p>
 										</div>
 									</div>
 								</div>
@@ -89,10 +89,10 @@ function Home() {
 									</div>
 									<div className="department_infos">
 										<div className="department_name">
-											<h3>GC - CHTM</h3>
+											<h3>GC - CEAS</h3>
 										</div>
 										<div className="department_description">
-											<p>College of Hospitality and Tourism Management</p>
+											<p>College of Education, Arts, and Sciences</p>
 										</div>
 									</div>
 								</div>
