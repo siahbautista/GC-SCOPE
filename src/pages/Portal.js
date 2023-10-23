@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import './css_pages/Login.css';
 import LoginForm from '../components/LoginForm';
 
-
 export class Portal extends Component {
     render() {
         return (
